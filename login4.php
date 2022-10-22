@@ -1,6 +1,3 @@
-<?php
-include("../dbconn.php");
-?>
 <html lang="en">
 
 <head>
@@ -15,10 +12,10 @@ include("../dbconn.php");
         <div class="w-full max-w-md space-y-8">
             <div>
                 <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-                    로그인
+                    로그인4
                 </h2>
             </div>
-            <form class="mt-8 space-y-6" action="./login_checke.php" method="POST">
+            <form class="mt-8 space-y-6" action="./login4_checke.php" method="POST">
                 <div class="-space-y-px rounded-md shadow-sm">
                     <div>
                         <label for="user_name" class="sr-only">아이디</label>
