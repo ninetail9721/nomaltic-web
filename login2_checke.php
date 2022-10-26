@@ -10,7 +10,7 @@ if (!$user_name || !$user_password) {
     exit;
 }
 
-$sql = "SELECT * FROM user WHERE user_name='$user_name'";
+$sql = "SELECT user_name, user_password FROM user WHERE user_name='$user_name'";
 $result = mysqli_query($conn, $sql);
 $mb = mysqli_fetch_assoc($result);
 
