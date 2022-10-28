@@ -1,9 +1,9 @@
 <?php
 $mysql_host = "localhost";
 //admin
-$mysql_user = "root";
+$mysql_user = "admin";
 //student
-$mysql_password = "1234";
+$mysql_password = "student";
 $mysql_db = "nomaltic_web";
 
 $conn = mysqli_connect($mysql_host, $mysql_user, $mysql_password, $mysql_db);
