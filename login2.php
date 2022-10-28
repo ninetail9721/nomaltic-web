@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gray-100">
     <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div class="w-full max-w-md space-y-8">
             <div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="flex items-center justify-center">
                     <div class="text-sm">
-                        <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">회원가입</a>
+                        <a href="./signup.php" class="font-medium text-indigo-600 hover:text-indigo-500">회원가입</a>
                     </div>
                 </div>
             </form>
