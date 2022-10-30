@@ -46,10 +46,10 @@
                                 <div>
                                     <label class="block text-sm font-medium text-gray-700">주소</label>
                                     <div class="flex justify-center">
-                                        <input type="text" readonly name="user_address_code" id="user_address_code" class="mt-1 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
+                                        <input type="text" placeholder="우편번호" readonly name="user_address_code" id="user_address_code" class="mt-1 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
                                         <button class="ml-5 rounded-md bg-gray-100 text-sm w-1/4" onclick="check_address()">주소 검색</button>
                                     </div>
-                                    <input type="text" readonly name="user_address" id="user_address" class="mt-2 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
+                                    <input type="text" placeholder="상세주소" readonly name="user_address" id="user_address" class="mt-2 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
                                 </div>
 
                             </div>
