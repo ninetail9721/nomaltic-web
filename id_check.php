@@ -28,7 +28,7 @@ $mb = mysqli_fetch_assoc($result);
     }
 
     function finish_popup() {
-        opener.document.getElementById("user_id").value = <?= $user_name ?>;
+        opener.document.getElementById("user_id").value = "<?= $user_name ?>";
         window.close();
     }
 </script>

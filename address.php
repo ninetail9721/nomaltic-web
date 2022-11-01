@@ -33,10 +33,8 @@ if (isset($_POST["address"])) {
     function submit_btn(element) {
         opener.document.getElementById("user_address").value = element.innerText;
         opener.document.getElementById("user_address_code").value = element.nextElementSibling.innerText;
-        window.close()
+        window.close();
     }
 </script>
 
 </html>
-
-<!--  <button onclick="submit_btn(this)">클릭</button>  -->
