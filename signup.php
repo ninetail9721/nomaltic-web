@@ -23,33 +23,33 @@
                                 <div>
                                     <label for="user_id" class="block text-sm font-medium text-gray-700">아이디</label>
                                     <div class="flex justify-center">
-                                        <input type="text" require name="user_id" id="user_id" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                                        <input type="text" required name="user_id" id="user_id" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                                         <button type="button" class="ml-5 rounded-md bg-gray-100 text-sm w-1/4" onclick="check_id()">중복 확인</button>
                                     </div>
                                 </div>
 
                                 <div>
                                     <label for="user_password" class="block text-sm font-medium text-gray-700">비밀번호</label>
-                                    <input type="password" require name="user_password" id="user_password" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                                    <input type="password" required name="user_password" id="user_password" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                                 </div>
 
                                 <div>
                                     <label for="user_password2" class="block text-sm font-medium text-gray-700">비밀번호 확인</label>
-                                    <input type="password" require name="user_password2" id="user_password2" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                                    <input type="password" required name="user_password2" id="user_password2" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                                 </div>
 
                                 <div>
                                     <label for="user_nickname" class="block text-sm font-medium text-gray-700">닉네임</label>
-                                    <input type="text" require name="user_nickname" id="user_nickname" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                                    <input type="text" required name="user_nickname" id="user_nickname" autocomplete="given-name" class="mt-1 p-2 block w-full rounded-md border-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                                 </div>
 
                                 <div>
                                     <label class="block text-sm font-medium text-gray-700">주소</label>
                                     <div class="flex justify-center">
-                                        <input type="text" require placeholder="우편번호" readonly name="user_address_code" id="user_address_code" class="mt-1 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
+                                        <input type="text" required placeholder="우편번호" readonly name="user_address_code" id="user_address_code" class="mt-1 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
                                         <button type="button" class="ml-5 rounded-md bg-gray-100 text-sm w-1/4" onclick="check_address()">주소 검색</button>
                                     </div>
-                                    <input type="text" require placeholder="상세주소" readonly name="user_address" id="user_address" class="mt-2 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
+                                    <input type="text" required placeholder="상세주소" readonly name="user_address" id="user_address" class="mt-2 p-2 block w-full rounded-md shadow-sm focus:outline-none bg-gray-100">
                                 </div>
 
                             </div>

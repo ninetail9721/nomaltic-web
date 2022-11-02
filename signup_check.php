@@ -14,7 +14,7 @@ if ($user_password !== $user_password2) {
     exit;
 }
 
-if (!$user_password && !$user_name && !$user_nickname && !$user_address_code && !$user_address) {
+if (!$user_password || !$user_name || !$user_nickname || !$user_address_code || !$user_address) {
     echo "<script>alert('모든 항목을 채워주세요!');</script>";
     echo "<script>location.replace('./signup.php')</script>";
     exit;
